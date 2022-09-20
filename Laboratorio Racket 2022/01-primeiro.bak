@@ -5,13 +5,13 @@
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
 ;; 2022
-;; Aluno: Rômulo Souza Fernandes
+;; Aluno: Fulano      <===========  escreva seu nome aqui
 ;; 
 ;; Liguagem Advanced Student       ;; define a linguagem default
 ;; O primeiro programa Racket
 ;; ---------------------------------------------------
 (begin
   (newline)
-  (display "Bom dia, UENF. Bem vindo à Linguagem Racket-Scheme! 2022") ;<------ mostrar na tela
+  (display "Bom dia, UENF. Bemvindo à Linguagem Racket-Scheme! 2022") ;<------ mostrar na tela
   (newline))
 
