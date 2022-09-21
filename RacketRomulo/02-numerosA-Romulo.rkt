@@ -10,7 +10,13 @@
 ;;;;;;;;;;;;;;;;   Escolha a linguagem "Determine language from source"
 ;;
 ; ------------------------------------------------
-
+(display "UENF-CCT-LCMAT-CC, 2022")
+(newline)
+(display "Paradigmas de Linguagens de Programação (Prof. Ausberto Castro)")
+(newline)
+(display "Aluno:  Rômulo Souza Fernandes ")
+(newline)
+(newline)
 (display "H = (4 – (7^2 + 6^3) / 3) – (6 + (5 – (2^4 – 8)))")
 (newline)
 (display "Resultado:")
