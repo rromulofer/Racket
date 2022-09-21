@@ -12,6 +12,11 @@
 ;; ---------------------------------------------------
 (begin
   (newline)
-  (display "Bom dia, UENF. Bemvindo à Linguagem Racket-Scheme! 2022") ;<------ mostrar na tela
+  (display "Bom dia, UENF. Bem vindo à Linguagem Racket-Scheme! 2022")
+  (newline)
+  (display "Pratica 01 - Linguagem Racket")
+  (newline)
+  (display "Rômulo Souza Fernandes")
+  (newline)
+  (display "20 de Setembro de 2022")
   (newline))
-
