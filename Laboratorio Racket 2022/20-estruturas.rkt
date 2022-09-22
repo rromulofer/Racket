@@ -5,7 +5,7 @@
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
 ;; Setembro - 2022
-;; Aluno: Fulano      <===========  seu nome aqui e abaixo
+;; Aluno: Rômulo Souza Fernandes
 ;;
   ;; define a linguagem default ===> Habilite Advanced Student
 ; ------------------------------------------------
@@ -14,7 +14,7 @@
 (newline)
 (display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro)")
 (newline)
-(display "  Aluno:  Fulano ")
+(display "  Aluno:  Rômulo Souza Fernandes ")
 (newline)
 ;;;
 ; Ir no Menu:  
