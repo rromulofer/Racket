@@ -16,4 +16,5 @@
 (newline)
 (display "Aluno: Rômulo Souza Fernandes ")
 (newline)
+(newline)
 (display (/ (sqrt (+ (+ (+ 49 5)(sin (- 18 7)))(cos (+ 20 2)))) (*(+ 5 3))16 ))
