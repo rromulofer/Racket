@@ -20,43 +20,21 @@
 ;;
 ;; Condicionais    (if  (condicao) (alternativa1) (alternativa2 ) )
 ;; ---------------------------------------------------
+(newline)
 
-(define P 126)
-(display "P = ")
-P
-(if (> P 57) 
-    (display "P maior que 57")
-    (display "P menor que 57")
+(define media 60)
+(display "A média para aprovação é = ")
+media
+(if (<= media 80) 
+    (display "Aluno aprovado!")
+    (display "Aluno reprovado!")
     )
-;;----------------------------
 
-(define (reply s)
-  (if (equal? "Oi" (substring s 0 2))
-      "Tudo Bem?"
-      "Nao entendi."))
-
-;;----------------------------
-(define quadrado
-     (lambda ( a )
-       ( * a a)
-       )
-  )
-;;----------------------------
 (newline)
-(define minquadrado 
-             (lambda (a b)
-             (if (< a b) 
-                         (quadrado a) 
-                         (quadrado b) ) ) ) 
-
-;;----------------------------
-
-(display "MinQadrado de 6 e 9 = ") (minquadrado 6 9)
 (newline)
 
-(display "Oi pessoal da Computação UENF! ")
-(reply "Oi pessoal da Computação UENF!")
-
-(display "Vai chover na madrugada? ")
-(reply "Vai chover na madrugada?")
-
+(define num -5)
+(if (< num 0) 
+    (display "O número é negativo!")
+    (display "O número é positivo!")
+    )
