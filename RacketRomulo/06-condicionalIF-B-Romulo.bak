@@ -22,19 +22,14 @@
 ;; ---------------------------------------------------
 (newline)
 
-(define media 80)
+(define nota1 80)
+(define nota2 60)
+(define nota3 50)
+(define media 0)
+media = nota1 + nota2 + nota3
 (display "A média para aprovação é = 60")
-(newline)
+
 (if (>= media 60) 
     (display "Aluno aprovado!")
     (display "Aluno reprovado!")
-    )
-
-(newline)
-(newline)
-
-(define num -5)
-(if (< num 0) 
-    (display "O número é negativo!")
-    (display "O número é positivo!")
-    )
+    )  
