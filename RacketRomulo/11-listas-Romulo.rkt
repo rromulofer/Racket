@@ -2,7 +2,7 @@
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
 ;; Setembro - 2022
-;; Aluno: Rômulo Souza Fernandes
+;; Aluno: Fulano      <===========  escreva seu nome aqui
 ;;
 #lang racket      ;; define a linguagem default
 ; ------------------------------------------------
@@ -10,7 +10,7 @@
 (newline)
 (display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro)")
 (newline)
-(display "  Aluno:  Rômulo Souza Fernandes ")
+(display "  Aluno:  Fulano ")
 (newline)
 ;;
 
@@ -20,9 +20,9 @@
 (define lista1 (cons 'a '(x y w u)))
 
 (define lista2a (cons 'x (cons 'a (cons 'm '(3 7)))))
-(define lista2b (cons 'x (cons 'a (cons 'm (cons 3 7)))))
+(define lista2b (cons 'x (cons 'a (cons 'm (cons 3 7))))) 
 
-(display "Lista2a :") lista1
+(display "Lista2a :") lista2a
 (newline)
 
 (display "Lista2b:") lista2b
