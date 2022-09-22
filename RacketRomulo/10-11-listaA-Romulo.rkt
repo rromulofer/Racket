@@ -14,4 +14,26 @@
 (newline)
 ;;
 (define lista1 (list 1 2 3 4))  
-(define lista2 (list 5 6 7 8))      
+
+(newline)
+(display "Lista 1 = ")
+lista1
+
+(newline)
+
+(display "Primeiro elemento da Lista 1 = ")
+(car lista1)
+
+(newline)
+(display "Último elemento da Lista 1 = ")
+(car(cdr (cdr (cdr lista1))))
+
+(newline)
+(display "Comprimento da lista 1 = ")
+(length lista1) 
+
+(define lista2 (cons '(1 2 3 4) '(5 6)))
+
+(newline)
+(display "Lista 2 = ")
+lista2
