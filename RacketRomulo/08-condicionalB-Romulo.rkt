@@ -13,7 +13,7 @@
 (display "  Aluno:  Rômulo Souza Fernandes ")
 (newline)
 (newline)  
-(define (bhaskara a b c)
+(define (Bhaskara a b c)
  (local ((define delta (- (* b b) (* 4 a c))))
  (cond
  [(< delta 0) empty]
@@ -23,4 +23,4 @@
  (cond
  [(= delta 0) (list x1)]
  [else (list x1 x2)]))])))
-(bhaskara 1 12 -13)
+(Bhaskara 1 12 -13)
