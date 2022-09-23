@@ -2,7 +2,7 @@
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
 ;; Setembro - 2022
-;; Aluno: Rômulo Souza Fernandes      <===========  escreva seu nome aqui 
+;; Aluno: Rômulo Souza Fernandes
 
 ;;;;;;;;;;;;;;;;   Escolha a linguagem "Determine language from source"
 ;;

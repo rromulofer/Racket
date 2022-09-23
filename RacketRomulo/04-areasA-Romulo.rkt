@@ -1,6 +1,3 @@
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-advanced-reader.ss" "lang")((modname 04-areasA-Romulo) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
 ;; Introdução à Linguagem Scheme-Racket
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
@@ -19,7 +16,20 @@
 (display "  Aluno:  Rômulo Souza Fernandes")
 (newline)
 (newline)
-(define (area-quadrado lado)
-  (* lado lado))
+(define (area-quadrado r ) 
+  (* r r))
+(display "Área de um quadrado de lado 5: ")
+         (area-quadrado 5)
 
-(define (area-trapezio 
+(newline)
+(define (area-trapezio base_maior base_menor h ) 
+  (/(*(+ base_maior base_menor) h ) 2))
+
+(display "Área de um trapezio de base maior=5, base menor=3 e altura=1: ")
+(area-trapezio 5 3 1)
+
+(define (area-poligono p a ) 
+  (* (* 0.5 p) a))
+(newline)
+(display "Área de um poligono de perimetro=50 e apótema=5: ")
+(area-poligono 50 5)
