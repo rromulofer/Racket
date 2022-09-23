@@ -17,8 +17,10 @@
 (display "Aluno:  Rômulo Souza Fernandes ")
 (newline)
 (newline)
-(define (x y)
+(define (equacao x y)
+(-(/(+ 2 x)(- (* 3 y) 4))(+ (* x y) 5)))
+
 (display "(2 + x)/(3y-4) – (xy + 5)")
 (newline)
 (display "Resultado:")
-(-(/(+ 2 x)(- (* 3 y) 4))(+ (* x y) 5)))
+equacao
