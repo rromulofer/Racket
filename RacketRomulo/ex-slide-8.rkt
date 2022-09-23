@@ -8,19 +8,19 @@
 ;;
 #lang racket      ;; define a linguagem default
 ; ------------------------------------------------
+(define (Pquadrado L) 
+  (* L 4))
+(display "Perímetro do quadrado de lado 5: ")
+(Pquadrado 5)
+(newline)
 
-(define funcao1
-      (lambda  (x  y)
-       (-(/(+ 2 x)(- (* 3 y) 4))(+ (* x y)5))
-       )
-)
-(display "Resposta com x = 10 e y = 2: ")
-(funcao1 10 2)
+(define (Pcirculo R) 
+  (*(* 2 3.14)R ))
+(display "Perímetro do circulo de raio 5: ")
+(Pcirculo 5)
+(newline)
 
-(define funcao2
-      (lambda  (x)
-       (- (+(* x x)(* 3 x))5)
-       )
-)
-(display "Resposta com x = 5: ")
-(funcao2 5)
+(define (Ptriangulo A B C) 
+  (+ (+ A B)C ))
+(display "Perímetro do triangulo de lado A = 1 B = 2 C = 3 ")
+(Ptriangulo 1 2 3)
