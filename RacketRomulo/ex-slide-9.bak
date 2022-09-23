@@ -1,0 +1,23 @@
+;; Introdução à Linguagem Scheme-Racket
+;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
+;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
+;; Setembro - 2022
+;; Aluno: Rômulo Souza Fernandes
+
+;;;;;;;;;;;;;;;;   Escolha a linguagem "Determine language from source"
+;;
+#lang racket      ;; define a linguagem default
+; ------------------------------------------------
+(define A (list 1 2 3 4 5))
+
+(define (busca numero) 
+     (cond 
+              ((= numero car(A)) (display numero)) 
+              (else "Opção não encontrada")  
+              )
+  ) 
+
+(display "Digite um numero inteiro entre 1 e 5: ")
+(newline)
+(define num (read))
+(busca(num))
