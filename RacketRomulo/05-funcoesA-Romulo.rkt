@@ -32,7 +32,7 @@
   (lambda (x y) 
     (begin
       (newline)
-      (display "A divisao ") (display x) (display "/") (display y)(display " = ")
+      (display "Divisao de ") (display x) (display "/") (display y)(display " = ")
       (/ x y)
      )
    )
