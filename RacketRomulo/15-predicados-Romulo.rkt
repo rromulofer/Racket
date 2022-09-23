@@ -71,8 +71,3 @@
 (newline)
 (display "É un STRING 'Oi, UENF ...' ?:  ")(string? "Oi, UENF ...")
 (display "É un STRING 24 ?:  ")(string? 24)
-
-
-
-
-

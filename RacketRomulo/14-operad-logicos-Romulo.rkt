@@ -54,4 +54,3 @@
 (newline)
 (display " not(5 > 3) = ")  (not (> 5 3))
 (display " not(10 > 25) = ") (not (> 10 25))
-
