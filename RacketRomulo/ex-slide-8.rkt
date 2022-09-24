@@ -8,6 +8,12 @@
 ;;
 #lang racket      ;; define a linguagem default
 ; ------------------------------------------------
+(display "  UENF-CCT-LCMAT-CC, 2022")
+(newline)
+(display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro)")
+(newline)
+(display "  Aluno:  Rômulo Souza Fernandes ")
+(newline)
 (define (Pquadrado L) 
   (* L 4))
 (display "Perímetro do quadrado de lado 5: ")
